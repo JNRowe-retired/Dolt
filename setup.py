@@ -1,5 +1,6 @@
-from distutils.core import setup
 import os
+
+from setuptools import setup
 
 # Stolen from django-registration
 # Compile the list of packages available, because distutils doesn't have
