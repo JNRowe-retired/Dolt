@@ -30,7 +30,7 @@ directory:
     twitter.users.show(screen_name="tswicegood")
 
 Notice the similarities?  This way, you can use the official API docs to figure
-out how your'e supposed to interact with the object that represents it.  No extra
+out how you're supposed to interact with the object that represents it.  No extra
 documentation needed.
 
 
@@ -121,7 +121,7 @@ That is equivalent to:
 
 Re-using requests
 -----------------
-When chainging attributes or using `with_*` functions, Dolt returns a clone of
+When chaining attributes or using `with_*` functions, Dolt returns a clone of
 the current state. This allows you to safely re-use Dolt requests for batch
 processing.
 
